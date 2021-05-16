@@ -1,0 +1,160 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Frontend Mentor</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <script>
+          const toggleButton = document.getElementsByClassName('toggle-button')[0]
+          const navbarLinks =  document.getElementsByClassName('navbar-links')[0]
+          toggleButton.addEventListener('click', ()=>{
+            navbarLinks.classList.toggle('active')
+          });
+          </script>
+    </head>
+    <body>
+      <div class="first-section">
+        <!--Header part-->
+    <header>
+      <nav class="container">
+              <img src="./images/logo.svg" class="logo">
+              <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </a>
+              <div class="navbar-links">
+              <ul>
+                  <li><a href="#">Features</a></i></li>
+                  <li><a href="#">Prising</a></li>
+                  <li><a href="#">Resourses</a></li>
+                  <li class="login-1"><a href="#">Login</a></li>
+                  <li class="login-1"><a href="#">Sign Up</a></li>
+                 </ul>
+                </div>
+               <div class="login">
+                <a href="#">Login</a>
+                <a href="#" class="btn">Sign Up</a>
+               </div>
+    </nav> 
+    </header>
+    
+    <!--main part-->
+    <main>
+      <!--introduction part-->
+      <section class="introduction">
+        <div class="intro">
+          <div class="text">
+            <h1 class="small">More than just <span>shorter links</span></h1>
+            <p class="medium">Build your brand's recognition and get detailed insights on how your links are performing.</p>
+            <a href="#" class="btn btn-1">Get Started</a>
+          </div>
+
+          <div class="intro-image">
+            <img src="./images/illustration-working.svg">
+          </div>
+        </div>
+      </section>
+
+      <!--form input , about feature part-->
+      <section class="input">
+      <div class="container">
+        <div class="input-box large">
+        <form action="">
+          <input type="text" placeholder="Shorten a link here...">
+          <button class="link-btn">Shorten It</button>
+        </form>
+      </div>
+
+      <div class="about-section">
+        <h2 class="small">Adavnced statistics</h2>
+        <p  class="medium">Track how your links are performing across the web with <span class="span-1">advanced statistics dashboard</span> </p>
+      </div>
+        <!-- feature part-->
+      <div class="feature-section">
+        <div class="feature">
+          <!--box1-->
+          <div class="feature-box box1">
+            <div class="feature-img">
+              <img src="./images/icon-brand-recognition.svg">
+            </div>
+            <h3>Brand Recognition</h3>
+            <p>Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instill confidence in your content.</p>
+          </div>
+        <!--box2-->
+          <div class="feature-box box2">
+            <div class="feature-img">
+              <img src="./images/icon-detailed-records.svg">
+            </div>
+            <h3>Detailed Records</h3>
+             <p>Gain insights into whomis clicking your links knowing when and where people engage with your content helps inform better decisions</p>
+          </div>
+        <!--box3-->
+          <div class="feature-box box3">
+            <div class="feature-img">
+              <img src="./images/icon-fully-customizable.svg">
+            </div>
+            <h3>Fully Customizable</h3>
+            <p>Improve brand awaraness and content discoverability through Customizable links supercharging audience engagement.</p>
+          </div>
+
+        </div>
+      </div>
+          </div>
+        </div>
+      </section>
+
+      <!--boost section-->
+      <section class="boost">
+        <div class="container boost-1">
+          <h2 class="medium">Boost your links today</h2>
+          <a href="#" class="btn btn-large">Get Started</a>
+        </div>
+      </section>
+
+      <!--Footer section-->
+      <footer class="footer-section">
+        <div class="continer footer">
+          <div class="footer-img">
+          <h2>Shortly</h2>
+          </div>
+
+          <div class="footer-menu">
+            <p class="small">features</p>
+            <ul class="nav-ul footer-links">
+              <li><a href="#">Link shortening</a></li>
+              <li><a href="#">Branded Links</a></li>
+              <li><a href="#">Analytics</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-menu">
+            <p class="small">Resources</p>
+            <ul class="nav-ul footer-links">
+              <li><a href="#">blog</a></li>
+              <li><a href="#">Developers</a></li>
+              <li><a href="#">support</a></li>
+            </ul>
+          </div>
+          <div class="footer-menu">
+            <p class="small">Company</p>
+            <ul class="nav-ul footer-links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Our team</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <!--footer icons-->
+          <div class="social-icons">
+            <img src="./images/icon-facebook.svg">
+            <img src="./images/icon-twitter.svg">
+            <img src="./images/icon-pinterest.svg">
+            <img src="./images/icon-instagram.svg">
+            </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
